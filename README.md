@@ -1,7 +1,7 @@
 # Data Science Intern
 
 ### Education
-Computer Science Engineering, B.Tech | Lovely Professional University  
+Computer Science Engineering, B.Tech | Lovely Professional University\
 Data Science & Applications, B.S. | Indian Institute of Technology Madras
 
 ### Skills
