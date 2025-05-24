@@ -11,23 +11,29 @@ export const Achievements = () => {
         {
             id: 2,
             year: '2024',
+            title: 'Presenter, SPARC Seminar on Stroke Care',
+            description: 'Presented work on "Detection of Early Ischaemic Changes in Non-Contrast CT" at the SPARC seminar on Stroke Care: From Emergency to Rehabilitation, hosted by the Centre for Biomedical Engineering at IIT Delhi and AIIMS, in collaboration with UNSW Medicine & Health. Focused on utilizing deep learning techniques to accurately segment hypodense regions indicating early ischemic changes.'
+        },
+        {
+            id: 3,
+            year: '2024',
             title: 'Special Invitee, SYNTACS 2024',
             description: 'Invited by the Head of the Department (CSE) to participate in the Symposium on Novel Technologies and Advances in Computer Science at IIT Ropar.'
         },
         {
-            id: 3,
+            id: 4,
             year: '2023',
             title: 'Winter Student, Trust Lab, IIT Bombay',
             description: 'Awarded a fellowship at Trust Lab IIT Bombay to research the application of machine learning in cybersecurity and blockchain.'
         },
         {
-            id: 4,
+            id: 5,
             year: '2022',
             title: 'Mentee, ACM IKDD & IIT Gandhinagar',
             description: 'Selected as part of a cohort of 50 from across India to spend the summer of 2022 at IIT Gandhinagar as a fully funded fellow. Received special appreciation for outstanding performance during the program.'
         },
         {
-            id: 5,
+            id: 6,
             year: '2023',
             title: 'First Prize, Deep Learning Hackathon',
             description: 'Awarded ₹20,000 cash prize for winning first place in a college-wide hackathon focused on deep learning, showcasing excellence in machine learning and problem-solving.'
