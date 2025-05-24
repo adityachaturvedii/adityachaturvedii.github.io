@@ -5,8 +5,8 @@ export const Achievements = () => {
         {
             id: 1,
             year: '2025',
-            title: 'Presenter, SPARC Seminar on Stroke Care',
-            description: 'Presented work on Early Ischaemic Changes on Non-Contrast CT, hosted by the Centre for Biomedical Engineering at the Indian Institute of Technology, Delhi, and AIIMS, in collaboration with UNSW Medicine & Health.'
+            title: 'Research Presenter, UNSW Workshop',
+            description: 'Presented research on "Early Ischemic Changes on Non-Contrast CT: Hypodensity Segmentation Using an AI Approach" at UNSW Workshop. Developed a deep learning model to segment hypodense regions directly from NCCT scans, aimed at supporting faster and more consistent stroke diagnosis in emergency settings.'
         },
         {
             id: 2,
