@@ -1,8 +1,8 @@
 import React from 'react'
-import p1 from "../assets/p1.jpeg"
-import p2 from "../assets/p2.jpg"
-import p3 from "../assets/p3.jpg"
-import p4 from "../assets/p4.jpg"
+import strokePlatform from "../assets/stroke-platform.jpg"
+import mobileQaAgent from "../assets/mobile-qa-agent.jpg"
+import ctSegmentation from "../assets/ct-segmentation.jpg"
+import clinicalAiResearch from "../assets/clinical-ai-research.jpg"
 import { FaGithub } from 'react-icons/fa'
 import styles from './Portfolio.module.css'
 
@@ -10,7 +10,7 @@ export const Portfolio = () => {
     const projects = [
         {
             id: 1,
-            image: p1,
+            image: strokePlatform,
             github: "https://github.com/adityachaturvedii",
             title: "Acute-Stroke Imaging Platform",
             description: "An on-premise clinical AI platform integrating three NCCT and CT-perfusion inference services, PACS/DICOM ingestion, resource-aware scheduling, and a unified clinical workflow.",
@@ -18,7 +18,7 @@ export const Portfolio = () => {
         },
         {
             id: 2,
-            image: p2,
+            image: mobileQaAgent,
             github: "https://github.com/adityachaturvedii",
             title: "Multimodal Mobile QA Agent",
             description: "A multimodal Android agent combining visual reasoning, accessibility-tree interaction, trajectory capture, artifact upload, and knowledge-graph context during execution.",
@@ -26,7 +26,7 @@ export const Portfolio = () => {
         },
         {
             id: 3,
-            image: p3,
+            image: ctSegmentation,
             github: "https://github.com/adityachaturvedii",
             title: "Early Ischaemic Change Segmentation",
             description: "A 3D SegResNet pipeline for hypodensity segmentation on non-contrast CT, including registration, preprocessing, post-processing, and distributed HPC training.",
@@ -34,7 +34,7 @@ export const Portfolio = () => {
         },
         {
             id: 4,
-            image: p4,
+            image: clinicalAiResearch,
             github: "https://github.com/adityachaturvedii",
             title: "Clinical AI Research Pipelines",
             description: "Reproducible pipelines for CT radiomics, structured LLM extraction from clinical notes, and laboratory-free risk modelling across liver-disease cohorts.",
