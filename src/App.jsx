@@ -5,6 +5,7 @@ import { About } from './components/About'
 import { Achievements } from './components/Achievements'
 import { Portfolio } from './components/Portfolio'
 import { Experience } from './components/Experience'
+import { Publications } from './components/Publications'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
@@ -14,9 +15,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Achievements />
-      <Portfolio />
       <Experience />
+      <Publications />
+      <Portfolio />
+      <Achievements />
       <Contact />
       <Footer />
     </div>

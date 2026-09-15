@@ -12,40 +12,40 @@ export const Portfolio = () => {
             id: 1,
             image: p1,
             github: "https://github.com/adityachaturvedii",
-            title: "Brain Mask Extraction",
-            description: "Developed and implemented a robust and efficient algorithm using Image Processing Techniques and a U-Net based Architecture to automate brain region extraction from Brain CT Angiography (CTA) images. Received a cash prize of Rs. 10,000 for winning the hackathon.",
-            technologies: "PyTorch, MONAI, OpenCV"
+            title: "Acute-Stroke Imaging Platform",
+            description: "An on-premise clinical AI platform integrating three NCCT and CT-perfusion inference services, PACS/DICOM ingestion, resource-aware scheduling, and a unified clinical workflow.",
+            technologies: "FastAPI, Docker, React, DICOM"
         },
         {
             id: 2,
             image: p2,
             github: "https://github.com/adityachaturvedii",
-            title: "Air Quality Index Prediction",
-            description: "Aggregated and prepared 8 years of Climate Data from Open Source Climate API. Developed a machine learning model to predict Air Quality Index using PM 2.5 data, achieving accuracy of 0.87 on training and testing datasets.",
-            technologies: "Python, Machine Learning, Data Analysis"
+            title: "Multimodal Mobile QA Agent",
+            description: "A multimodal Android agent combining visual reasoning, accessibility-tree interaction, trajectory capture, artifact upload, and knowledge-graph context during execution.",
+            technologies: "Python, TypeScript, Multimodal Agents"
         },
         {
             id: 3,
             image: p3,
             github: "https://github.com/adityachaturvedii",
-            title: "Stroke Detection Research",
-            description: "Leading a research-driven Stroke Detection project, contributing to cutting-edge advancements in early stroke diagnosis, with a research paper in progress for publication.",
-            technologies: "Deep Learning, Computer Vision, Medical Imaging"
+            title: "Early Ischaemic Change Segmentation",
+            description: "A 3D SegResNet pipeline for hypodensity segmentation on non-contrast CT, including registration, preprocessing, post-processing, and distributed HPC training.",
+            technologies: "PyTorch, MONAI, 3D Imaging, HPC"
         },
         {
             id: 4,
             image: p4,
             github: "https://github.com/adityachaturvedii",
-            title: "Deep Learning for Healthcare",
-            description: "Developed and deployed a Deep Learning-based Brain Extraction Model for CT images, improving the accuracy and efficiency with Mean IoU 99.5 and DICE of 0.98.",
-            technologies: "PyTorch, MONAI, Python"
+            title: "Clinical AI Research Pipelines",
+            description: "Reproducible pipelines for CT radiomics, structured LLM extraction from clinical notes, and laboratory-free risk modelling across liver-disease cohorts.",
+            technologies: "Radiomics, LLMs, scikit-learn"
         }
     ]
   return (
     <div id="portfolio" className='w-full md:min-h-screen bg-black pt-20'>
         <div className='max-w-screen-lg p-4 w-full h-full mx-auto flex flex-col justify-center items-center text-white md:items-start'>
             <div className='pb-8'>
-                <h2 className='text-4xl sm:text-5xl font:bold inline border-b-4 border-gray-500'>Portfolio</h2>
+                <h2 className='text-4xl sm:text-5xl font-bold inline border-b-4 border-gray-500'>Selected Work</h2>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {projects.map(({id, image, github, title, description, technologies})=>(
@@ -71,7 +71,7 @@ export const Portfolio = () => {
                                         <div className={styles.githubIcon}>
                                             <FaGithub size={25} />
                                         </div>
-                                        <span>View Code</span>
+                                        <span>GitHub profile</span>
                                     </a>
                                 </div>
                             </div>

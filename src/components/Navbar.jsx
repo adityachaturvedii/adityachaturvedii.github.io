@@ -15,18 +15,22 @@ export const Navbar = () => {
         },
         {
             id: 3,
-            title: 'achievements'
-        },
-        {
-            id: 4,
-            title: 'portfolio'
-        },
-        {
-            id: 5,
             title: 'experience'
         },
         {
+            id: 4,
+            title: 'publications'
+        },
+        {
+            id: 5,
+            title: 'portfolio'
+        },
+        {
             id: 6,
+            title: 'achievements'
+        },
+        {
+            id: 7,
             title: 'contact'
         }
     ]
@@ -41,12 +45,12 @@ export const Navbar = () => {
     
     return (
         <div className='flex justify-between px-4 items-center bg-black text-white w-full h-20 fixed top-0 z-50'>
-            <div className='text-3xl font-bold ml-2'>ADITYA</div>
+            <button onClick={() => handleClick('home')} className='text-3xl font-bold ml-2 tracking-tight' aria-label='Go to top'>ADITYA</button>
             <ul className='hidden md:flex'>
                 {links.map((data) => (
                     <li 
                         key={data.id} 
-                        className='text-2xl px-4 capitalize cursor-pointer text-gray-500 hover:text-white hover:scale-105 duration-200'
+                        className='text-lg px-3 capitalize cursor-pointer text-gray-400 hover:text-white duration-200'
                         onClick={() => handleClick(data.title)}
                     >
                         {data.title}

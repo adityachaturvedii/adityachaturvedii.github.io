@@ -10,11 +10,11 @@ export const About = () => {
 
                 <div className='text-xl mt-4 space-y-6'>
                     <p>
-                        I'm a passionate Machine Learning Engineer with a strong drive to apply cutting-edge Computer Vision and Deep Learning techniques to solve real-world challenges in medical imaging. Known for dissecting complex problems through first-principles thinking and crafting scalable, high-performance solutions.
+                        I work at the intersection of applied machine learning and systems engineering. My experience spans multimodal agents, medical imaging, 3D segmentation, inference services, distributed training, data pipelines, and cloud and on-premises deployment.
                     </p>
                     
                     <p>
-                        In addition to my work at Proxmed, I've been actively involved in multiple AI conferences, where I've contributed insights and learned from leading experts. I've also been engaged in helping institutions and students enhance their machine learning capabilities through capacity building and training sessions.
+                        In healthcare, I build clinical AI infrastructure and research imaging biomarkers across stroke and liver disease. In agentic automation, I develop systems that turn natural-language goals into reliable web and mobile execution, with production feedback loops and reproducible evaluation.
                     </p>
                 </div>
                 
@@ -24,12 +24,12 @@ export const About = () => {
                 
                 <div className='w-full'>
                     <div className='mb-6'>
-                        <h4 className='text-xl font-semibold'>B.S. Data Science & Application</h4>
+                        <h4 className='text-xl font-semibold'>B.S., Data Science &amp; Applications</h4>
                         <p className='text-gray-400'>Indian Institute of Technology Madras | 2020 - 2024</p>
                     </div>
                     
                     <div className='mb-6'>
-                        <h4 className='text-xl font-semibold'>B.Tech Computer Science Engineering (AI/ML)</h4>
+                        <h4 className='text-xl font-semibold'>B.Tech., Computer Science &amp; Engineering</h4>
                         <p className='text-gray-400'>Lovely Professional University | 2020 - 2024</p>
                     </div>
                 </div>

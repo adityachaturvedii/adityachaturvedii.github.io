@@ -61,24 +61,60 @@ export const Experience = () => {
             title: 'Machine Learning Engineer',
             company: 'Proxmed Pty Ltd',
             period: 'October 2023 - Present',
-            location: 'Melbourne, Australia',
+            location: 'Melbourne, Australia · Remote',
             responsibilities: [
-                'Developed and deployed a Deep Learning-based Brain Extraction Model for CT images, improving the accuracy and efficiency with Mean IoU 99.5 and DICE of 0.98.',
-                'Leading a research-driven Stroke Detection project, contributing to cutting-edge advancements in early stroke diagnosis, with a research paper in progress for publication.',
-                'Managed a team of 5 members, overseeing project coordination, providing mentorship, and fostering a collaborative environment to drive results.',
-                'Contributed to team knowledge-sharing through regular discussions, code reviews, and collaborative learning initiatives.'
+                'Built an on-premise acute-stroke imaging platform integrating three AI inference services behind a unified FastAPI interface and React clinical workflow.',
+                'Designed resource-aware scheduling, multi-tenant authorization, PACS/DICOM ingestion, modality routing, and resilient inference delivery.',
+                'Developed a 3D SegResNet pipeline for early ischaemic hypodensity segmentation, achieving mean Dice 0.84 on held-out cases.',
+                'Lead imaging operations for the TENACITY multi-site stroke trial across sponsor, CRO, imaging-vendor, and internal teams.'
             ]
         },
         {
             id: 2,
+            title: 'Machine Learning Engineer',
+            company: 'QAI',
+            period: 'June 2025 - March 2026',
+            location: 'Germany · Remote',
+            responsibilities: [
+                'Built core components of an open-source AI quality-assurance platform for natural-language web and mobile testing.',
+                'Extended DroidRun into a multimodal Android agent combining visual reasoning, accessibility-tree interaction, trajectory capture, artifact upload, and knowledge-graph context.',
+                'Designed UI-flow graph versioning and diffing, and built the production feedback loop across a TypeScript telemetry SDK and Python anomaly engine.',
+                'Decoupled execution and storage from GCP to enable full local deployment and support the platform’s open-source release.'
+            ]
+        },
+        {
+            id: 3,
+            title: 'Research Engineer, Clinical AI',
+            company: 'Institute of Liver & Biliary Sciences (ILBS)',
+            period: 'September 2025 - August 2026',
+            location: 'New Delhi, India',
+            responsibilities: [
+                'Led a CT radiomics study in alcoholic hepatitis across 513 cases using IBSI-compliant extraction, pre-registered hypotheses, and permutation testing.',
+                'Built an LLM extraction pipeline that turns free-text hepatology discharge summaries into schema-validated cohort records.',
+                'Developed a laboratory-free, sex-specific steatotic liver disease risk model using data from more than 6,000 South Asian adults.',
+                'Served as a principal AI contributor to Project Walk For Life, a MeitY-funded national preventive healthcare initiative.'
+            ]
+        },
+        {
+            id: 4,
+            title: 'Machine Learning Engineer',
+            company: 'Sorcova Health SAS',
+            period: '2025 - Present',
+            location: 'France · Remote',
+            responsibilities: [
+                'Design and build the Health Profile Service, the core data and inference backend for a precision-medicine platform pursuing EU MDR Class IIa certification.',
+                'Implemented de-identification and governance workflows supporting GDPR, EU MDR, and EU AI Act requirements.',
+                'Automated legal and quality-system document generation through a programmatic Node.js pipeline.'
+            ]
+        },
+        {
+            id: 5,
             title: 'Big Data Intern',
             company: 'MedTourEasy',
             period: 'December 2022 - February 2023',
             location: 'New Delhi, India',
             responsibilities: [
-                'Improved data-driven decisions by 15% through developing predictive models using Python and R for trend analysis.',
-                'Conducted data cleaning and preprocessing, ensuring high-quality, structured datasets for model training and analysis.',
-                'Participated in the development of automated pipelines for data extraction, transformation, and loading (ETL), improving overall data workflow efficiency.'
+                'Built automated ETL pipelines for multi-gigabyte daily healthcare datasets and predictive models in Python and R, replacing manual cleaning and validation steps.'
             ]
         }
     ]
@@ -116,7 +152,7 @@ export const Experience = () => {
                 {/* Skills Section */}
                 <div className='w-full mt-8'>
                     <h3 className='text-2xl sm:text-3xl font-bold text-gray-300 mb-6'>Technical Skills</h3>
-                    <p className='py-2 text-xl text-gray-300 mb-4'>These are some of the technologies I've worked with</p>
+                    <p className='py-2 text-lg text-gray-300 mb-5 leading-relaxed'>Python · C++ · SQL · R · Java · TypeScript · PyTorch · MONAI · scikit-learn · TensorFlow · Hugging Face · MLX · FastAPI · Docker · Redis · React/Next.js · AWS · MLflow · SLURM/HPC · DICOM/NIfTI</p>
                     <div className='w-full grid grid-cols-2 sm:grid-cols-3 text-center py-4 px-12 sm:px-0'>
                         {techs.map(({ id, src, title, style }) => (
                             <div key={id} className={`shadow-md hover:scale-110 duration-300 py-6 px-8 rounded-lg ${style} cursor-pointer mb-6`}>
